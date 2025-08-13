@@ -1,44 +1,109 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Showcase</title>
+    <style>
+        body {
+            width: 1100px;
+            margin: auto;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .imageContainer {
+            width: 1100px;
+            height: 300px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .imageContainer img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        table {
+            border: 2px solid #444;
+            border-radius: 8px;
+            border-collapse: collapse;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table td {
+            vertical-align: middle;
+            padding: 15px;
+            border: 2px solid #ccc;
+        }
+
+        .image {
+            width: 200px;
+            text-align: center;
+        }
+
+        .image img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .text {
+            width: 600px;
+            line-height: 1.5;
+            font-size: 16px;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	 <div class="imageContainer"></div>
+
+    <!-- Top Image Container -->
+    <div class="imageContainer">
+        <img src="https://images.unsplash.com/photo-1655205772399-0fb14c29d950?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgwfHxydXNzaWFuJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D"
+             alt="Beautiful Architectural Landscape">
+    </div>
 
     <!-- Content Table -->
     <table>
         <tr>
             <td class="image">
-                <img src="https://images.unsplash.com/photo-1660032109934-d456ca7acadc?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJ1c3NpYW4lMjBnaXJsfGVufDB8fDB8fHww">
+                <img src="https://images.unsplash.com/photo-1660032109934-d456ca7acadc?w=700&auto=format&fit=crop&q=60"
+                     alt="Ancient Architecture">
             </td>
             <td class="text">
                 Architecture is the art and science of designing buildings that are both functional and aesthetically pleasing. From ancient temples to modern skyscrapers, architecture reflects the culture, history, and technological progress of its time.
             </td>
             <td class="image">
-                <img src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?w=800&auto=format&fit=crop&q=60" alt="Modern Building">
+                <img src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?w=800&auto=format&fit=crop&q=60"
+                     alt="Modern Building">
             </td>
         </tr>
 
         <tr>
             <td class="image">
-                <img src="https://images.unsplash.com/photo-1578910555658-62541451bace?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJ1c3NpYW4lMjBnaXJsfGVufDB8fDB8fHww" alt="Historic Structure">
+                <img src="https://images.unsplash.com/photo-1578910555658-62541451bace?w=700&auto=format&fit=crop&q=60"
+                     alt="Historic Structure">
             </td>
             <td class="text">
                 Each structure tells a story—be it the intricate carvings of Gothic cathedrals, the symmetry of classical architecture, or the bold lines of contemporary design. Architecture bridges the past with the present, shaping the environments where we live, work, and dream.
             </td>
             <td class="image">
-                <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&auto=format&fit=crop&q=60" alt="Architectural Detail">
+                <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&auto=format&fit=crop&q=60"
+                     alt="Architectural Detail">
             </td>
         </tr>
     </table>
-    <script type="text/javascript" src="./script.js">
-</script>
 
 </body>
-
 </html>
